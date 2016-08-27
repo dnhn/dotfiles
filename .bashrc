@@ -23,3 +23,8 @@ alias s="sudo"
 alias g="git"
 alias a="apt"
 alias ag="apt-get"
+
+alias poweroff="sudo poweroff"
+alias shutdown="sudo shutdown -h now"
+alias restart="sudo shutdown -r now"
+alias lock="gnome-screensaver-command -l"
