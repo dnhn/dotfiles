@@ -1,0 +1,81 @@
+"*":
+  activate-power-mode:
+    screenShake:
+      maxIntensity: 1
+  atom-material-ui:
+    colors:
+      abaseColor:
+        red: 92
+        green: 107
+        blue: 192
+        alpha: 1
+      predefinedColor: "Indigo"
+    fonts:
+      fontSize: 14
+    tabs:
+      compactTabs: true
+      tintedTabBar: true
+    treeView:
+      blendTabs: true
+      compactList: true
+    ui:
+      panelContrast: true
+  core:
+    autoHideMenuBar: true
+    closeEmptyWindows: false
+    destroyEmptyPanes: false
+    disabledPackages: [
+      "metrics"
+      "spell-check"
+      "welcome"
+      "linter-scss-lint"
+      "linter-stylelint"
+      "activate-power-mode"
+    ]
+    openEmptyEditorOnStart: false
+    packagesWithKeymapsDisabled: [
+      "autocomplete-plus"
+    ]
+    projectHome: "//// Path to project home ////"
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax"
+    ]
+  editor:
+    fontSize: 13
+    lineHeight: 1.4
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    tabType: "soft"
+    zoomFontWhenCtrlScrolling: false
+  exception-reporting:
+    userId: "//// Replace with current userId ////"
+  linter:
+    showErrorPanel: false
+  linter-eslint:
+    disableWhenNoEslintConfig: false
+  linter-stylelint:
+    enableHtmlLinting: true
+    useStandard: true
+  markdown-preview:
+    useGitHubStyle: true
+  minimap:
+    absoluteMode: true
+    scrollAnimation: true
+    scrollAnimationDuration: 200
+    textOpacity: 0.2
+  split-diff:
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
+  tabs:
+    enableVcsColoring: true
+    tabScrollingThreshold: 150
+  tree-view:
+    showOnRightSide: true
+  welcome:
+    showOnStartup: false
