@@ -9,3 +9,17 @@ export MANPATH
 
 INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
 export INFOPATH
+
+###
+# Custom aliases
+###
+alias /="cd /"
+alias ~="cd ~/"
+alias .="cd /"
+alias ..="cd .."
+alias ...="cd ../.."
+
+alias s="sudo"
+alias g="git"
+alias a="apt"
+alias ag="apt-get"
