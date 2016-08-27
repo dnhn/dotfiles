@@ -1,0 +1,21 @@
+[alias]
+  bd = bundle
+  br = branch
+  cl = clean
+  cm = commit
+  co = checkout
+  df = diff
+  ft = fetch
+  lg = log -n 20 --graph --oneline --decorate=full
+  pl = pull
+  ps = push
+  sh = show
+  ss = stash
+  ssp = stash pop
+  st = status
+[color]
+  ui = true
+[user]
+  name = Nhan To-Doan
+  email = ""
+  signingkey = ""
