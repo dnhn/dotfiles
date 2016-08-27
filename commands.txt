@@ -1,3 +1,3 @@
-# when apt-get is locked
+### when apt-get is locked
 sudo rm /var/lib/apt/lists/lock
 sudo rm /var/cache/apt/archives/lock

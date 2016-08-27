@@ -5,7 +5,7 @@
 # Lato, Open Sans, Open Sans Condensed, Raleway, Roboto, Roboto Condensed,
 # Source Sans Pro, Ubuntu
 
-### Git
+### APT install Git
 sudo apt install git
 
 ### APT install Node 4
