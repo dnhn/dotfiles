@@ -1,8 +1,8 @@
 "*":
-  activate-power-mode:
+  "activate-power-mode":
     screenShake:
       maxIntensity: 1
-  atom-material-ui:
+  "atom-material-ui":
     colors:
       abaseColor:
         red: 92
@@ -50,23 +50,23 @@
     softWrap: true
     tabType: "soft"
     zoomFontWhenCtrlScrolling: false
-  exception-reporting:
+  "exception-reporting":
     userId: "//// Replace with current userId ////"
   linter:
     showErrorPanel: false
-  linter-eslint:
+  "linter-eslint":
     disableWhenNoEslintConfig: false
-  linter-stylelint:
+  "linter-stylelint":
     enableHtmlLinting: true
     useStandard: true
-  markdown-preview:
+  "markdown-preview":
     useGitHubStyle: true
   minimap:
     absoluteMode: true
     scrollAnimation: true
     scrollAnimationDuration: 200
     textOpacity: 0.2
-  split-diff:
+  "split-diff":
     diffWords: true
     ignoreWhitespace: true
     leftEditorColor: "red"
@@ -75,7 +75,7 @@
   tabs:
     enableVcsColoring: true
     tabScrollingThreshold: 150
-  tree-view:
+  "tree-view":
     showOnRightSide: true
   welcome:
     showOnStartup: false

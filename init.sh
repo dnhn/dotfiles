@@ -20,6 +20,6 @@ sudo npm install -g bower browserify generator-webapp grunt gulp npm-check psi w
 sudo apt-get install openssh-server
 
 ### Synapse app launcher
-sudo add-apt-repository ppa:synapse-core/ppa 
+sudo add-apt-repository ppa:synapse-core/ppa
 sudo apt-get update
 sudo apt-get install synapse
