@@ -1,2 +1,8 @@
 # &middot;
-Base configuration files for development environments across platforms.
+Configuration files across platforms.
+
+Included:
+- Bash
+- Git
+- Brew
+- Atom
