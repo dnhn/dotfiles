@@ -12,7 +12,7 @@ sudo apt install git
 curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
-### Update latest NPM and install packages
+### Update latest NPM and install packages (without sudo if installed by Brew)
 sudo npm install -g npm
 sudo npm install -g bower browserify generator-webapp grunt gulp npm-check psi watchify webpack yo
 
