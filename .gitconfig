@@ -1,3 +1,5 @@
+[core]
+  autocrlf = true
 [alias]
   bd = bundle
   br = branch
