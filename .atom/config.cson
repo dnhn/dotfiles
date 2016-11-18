@@ -9,6 +9,7 @@
         green: 107
         blue: 192
         alpha: 1
+      paintCursor: true
       predefinedColor: "Indigo"
     fonts:
       fontSize: 14
@@ -54,8 +55,6 @@
     userId: "//// Replace with current userId ////"
   linter:
     showErrorPanel: false
-  "linter-eslint":
-    disableWhenNoEslintConfig: false
   "linter-stylelint":
     enableHtmlLinting: true
     useStandard: true
