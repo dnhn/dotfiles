@@ -2,10 +2,11 @@
 Configuration files across platforms.
 
 Included:
-- Bash
-- Git
-- Brew
 - Atom
+- Bash
+- Brew
+- Git
+- Vim
 
 References:
 - Paul Irish's [dotfiles](https://github.com/paulirish/dotfiles)
