@@ -66,6 +66,3 @@ set splitbelow
 
 " File diff always displays vertically
 set diffopt+=vertical
-
-" Add filler and context lines for diff
-set diffopt=filler,context=3
