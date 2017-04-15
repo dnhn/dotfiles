@@ -5,15 +5,20 @@
   br = branch
   cl = clean
   cm = commit
+  cnt = rev-list --count --all
   co = checkout
   df = diff
   ft = fetch
   lg = log -n 20 --graph --oneline --decorate=full
   pl = pull
   ps = push
+  pol = pull origin
+  pos = push origin
   sh = show
+  slog = shortlog -sn --all
   ss = stash
   ssp = stash pop
+  sss = stash save
   st = status
 [color]
   ui = true
