@@ -1,5 +1,5 @@
 ### Apps
-# Chrome, FileZilla, Atom, PhpStorm, Font Manager
+# Chrome, FileZilla, Atom, JetBrains, Font Manager
 
 ### Fonts
 # Lato, Open Sans, Open Sans Condensed, Raleway, Roboto, Roboto Condensed,
@@ -14,7 +14,7 @@ sudo apt-get install -y nodejs
 
 ### Update latest NPM and install packages (without sudo if installed by Brew)
 sudo npm install -g npm
-sudo npm install -g bower browserify generator-webapp grunt gulp npm-check psi watchify webpack yo
+sudo npm install -g @angular/cli babel-cli browserify bower cordova create-react-app express-generator foundation-cli generator-meanjs generator-server-configs generator-webapp github-email grunt gulp ionic isogram lighthouse npm-check postcss-cli psi react-native-cli tslint typescript vue-cli watchify webpack webpack-dev-server yarnpkg yo
 
 ### SSH, bridged network on VM | ssh user@ipaddress:port
 sudo apt-get install openssh-server
