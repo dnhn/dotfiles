@@ -5,7 +5,7 @@
   br = branch
   cl = clean
   cm = commit
-  cnt = rev-list --count --all
+  count = rev-list --count --all
   co = checkout
   df = diff
   ft = fetch
