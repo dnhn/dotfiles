@@ -17,6 +17,7 @@
   sh = show
   slog = shortlog -sn --all
   ss = stash
+  ssu = stash -u
   ssp = stash pop
   sss = stash save
   st = status
