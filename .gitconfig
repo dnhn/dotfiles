@@ -7,6 +7,7 @@
   cm = commit
   count = rev-list --count --all
   co = checkout
+  coo = checkout --
   df = diff
   ft = fetch
   lg = log -n 20 --graph --oneline --decorate=full
@@ -14,8 +15,10 @@
   ps = push
   pol = pull origin
   pos = push origin
+  rem = reset HEAD
   sh = show
   slog = shortlog -sn --all
+  sloge = shortlog -sne --all
   ss = stash
   ssu = stash -u
   ssp = stash pop
