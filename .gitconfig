@@ -1,10 +1,13 @@
 [core]
-  autocrlf = true
+  eol = lf
 [alias]
   bd = bundle
   br = branch
   cl = clean
   cm = commit
+  cma = commit --amend
+  cman = commit --amend --no-edit
+  cms = commit -S -m
   count = rev-list --count --all
   co = checkout
   coo = checkout --
@@ -15,7 +18,7 @@
   ps = push
   pol = pull origin
   pos = push origin
-  rem = reset HEAD
+  rem = reset HEAD --
   sh = show
   slog = shortlog -sn --all
   sloge = shortlog -sne --all
@@ -27,6 +30,6 @@
 [color]
   ui = true
 [user]
-  name = Nhan To-Doan
+  name = Nhan Doan
   email = ""
   signingkey = ""
