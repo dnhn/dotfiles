@@ -6,6 +6,7 @@
 set nocompatible
 
 " Set background and colour scheme
+" Dracula theme: https://github.com/dracula/vim
 set background=light
 colorscheme desert
 
