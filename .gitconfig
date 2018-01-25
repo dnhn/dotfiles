@@ -1,5 +1,13 @@
 [core]
   eol = lf
+[color]
+  ui = true
+[diff]
+  tool = vimdiff
+[user]
+  name = Nhan Doan
+  email =
+  signingkey =
 [alias]
   bd = bundle
   br = branch
@@ -12,11 +20,14 @@
   co = checkout
   coo = checkout --
   df = diff
+  dft = difftool
+  dfto = difftool --tool=opendiff
   ft = fetch
   lg = log -n 20 --graph --oneline --decorate=full
   pl = pull
   ps = push
   pol = pull origin
+  polr = pull origin --rebase
   pos = push origin
   rem = reset HEAD --
   sh = show
@@ -27,9 +38,3 @@
   ssp = stash pop
   sss = stash save
   st = status
-[color]
-  ui = true
-[user]
-  name = Nhan Doan
-  email = ""
-  signingkey = ""
