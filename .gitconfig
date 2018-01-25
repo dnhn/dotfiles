@@ -29,6 +29,7 @@
   pol = pull origin
   polr = pull origin --rebase
   pos = push origin
+  rbs = rebase
   rem = reset HEAD --
   sh = show
   slog = shortlog -sn --all
