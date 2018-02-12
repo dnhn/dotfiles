@@ -16,6 +16,7 @@ lighthouse
 npm-check
 postcss-cli
 psi
+react-devtools
 react-native-cli
 tslint
 typescript
