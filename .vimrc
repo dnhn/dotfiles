@@ -5,6 +5,9 @@
 " Set compatibility
 set nocompatible
 
+" 256-colour display
+set t_Co=256
+
 " Set background and colour scheme
 " Dracula theme: https://github.com/dracula/vim
 set background=light
@@ -13,12 +16,17 @@ color dracula
 
 " Set UTF-8 encoding without BOM
 set encoding=utf8 nobomb
+set fileencoding=utf8 nobomb
 
 " Automatically reload file on external change
 set autoread
 
+" Search ignore case except when putting capital letters
+set ignorecase
+set smartcase
+
 " Display line numbers
-" Set width for line numbers column
+" Line numbers column width
 set number
 set numberwidth=5
 
@@ -48,6 +56,9 @@ filetype indent on
 " Enable syntax highlighting
 syntax enable
 
+" Show matching parenthesis, brackets
+set showmatch
+
 " Highlight special characters
 " (tabs, traling spaces, end-of-line, non-breaking spaces)
 set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
@@ -60,10 +71,8 @@ set splitbelow
 " File diff always displays vertically
 set diffopt+=vertical
 
-" Colour setting
-set t_Co=256
-
 " vim-airline
 let g:airline_theme='badwolf'
 set laststatus=2
-let g:airline_powerline_fonts = 1
+" disabled because of incompatibility in macOS Terminal
+"let g:airline_powerline_fonts = 1
