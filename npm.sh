@@ -1,26 +1,32 @@
-npm install -g @angular/cli
-npm install -g babel-cli
-npm install -g bower
-npm install -g cordova
-npm install -g create-react-app
-npm install -g express-generator
+# Install NPM packages
+npm install -g \
+@angular/cli \
+babel-cli \
+bower \
+cordova \
+create-react-app \
+express-generator \
+generator-server-configs \
+generator-webapp \
+github-email \
+grunt \
+gulp \
+ionic \
+isogram \
+lighthouse \
+npm-check \
+postcss-cli \
+psi \
+react-devtools \
+react-native-cli \
+tslint \
+typescript \
+vue-cli \
+webpack \
+webpack-dev-server \
+yo
+
+# Special case for foundation-cli
+# Reinstallation of existing package causes errors for other global packages.
+npm uninstall -g foundation-cli && \
 npm install -g foundation-cli
-npm install -g generator-server-configs
-npm install -g generator-webapp
-npm install -g github-email
-npm install -g grunt
-npm install -g gulp
-npm install -g ionic
-npm install -g isogram
-npm install -g lighthouse
-npm install -g npm-check
-npm install -g postcss-cli
-npm install -g psi
-npm install -g react-devtools
-npm install -g react-native-cli
-npm install -g tslint
-npm install -g typescript
-npm install -g vue-cli
-npm install -g webpack
-npm install -g webpack-dev-server
-npm install -g yo

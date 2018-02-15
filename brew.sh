@@ -7,7 +7,6 @@ brew update
 # hub (GitHub)
 # MongoDB
 # MySQL (additional to Valet)
-# Node.js (latest for Valet)
 # Node.js LTS (main usage)
 # unrar (extract .rar files)
 # Watchman
@@ -21,7 +20,6 @@ hub \
 mongodb \
 mysql \
 nginx \
-node \
 node@8 \
 php71 \
 unrar \
