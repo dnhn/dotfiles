@@ -1,0 +1,13 @@
+dnsmasq
+git
+heroku
+hub
+mongodb
+mysql
+nginx
+node
+node@8
+php71
+unrar
+watchman
+wget
