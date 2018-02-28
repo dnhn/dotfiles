@@ -1,4 +1,5 @@
 brew update
+brew upgrade
 
 # Install Brew packages
 # Git
@@ -27,4 +28,5 @@ watchman \
 wget \
 yarn
 
+echo "Brew outdated packages"
 brew outdated

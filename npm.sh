@@ -15,6 +15,7 @@ ionic \
 isogram \
 lighthouse \
 npm-check \
+parcel-bundler \
 postcss-cli \
 psi \
 react-devtools \
