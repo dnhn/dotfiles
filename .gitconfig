@@ -13,7 +13,7 @@
   bd = bundle
   br = branch
   cl = clean
-  cm = commit
+  cm = commit -m
   cma = commit --amend
   cman = commit --amend --no-edit
   cms = commit -S -m
