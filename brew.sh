@@ -1,4 +1,13 @@
+if ! [ -x "$(command -v brew)" ]; then
+  echo "Homebrew is not found on this machine, installing Homebrew"
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  echo
+fi
+
+echo "=== Update Brew"
 brew update
+
+printf "\n=== Upgrade packages"
 brew upgrade
 
 # Install Brew packages
@@ -13,6 +22,7 @@ brew upgrade
 # Watchman
 # wget
 # Yarn
+printf "\n=== Install new packages"
 brew install \
 dnsmasq \
 git \
@@ -28,5 +38,5 @@ watchman \
 wget \
 yarn
 
-echo "Brew outdated packages"
+printf "\n=== Outdated packages"
 brew outdated
