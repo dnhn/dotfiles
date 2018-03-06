@@ -9,7 +9,7 @@ fi
 echo "=== Update Brew"
 brew update
 
-echo "\n=== Add more repositories\n"
+printf "\n=== Add more repositories\n"
 brew tap caskroom/cask
 
 printf "\n=== Upgrade packages\n"
