@@ -1,12 +1,18 @@
 export CLICOLOR=1
-export PATH="/usr/local/sbin:$PATH"
-export PATH="/usr/local/opt/node@8/bin:$PATH"
-export PATH="${HOME}/.composer/vendor/bin:$PATH"
+export PATH="${PATH}:/usr/local/sbin"
+export PATH="${PATH}:/usr/local/opt/node@8/bin"
+export PATH="${PATH}:${HOME}/.composer/vendor/bin"
+export PATH="${PATH}:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 # Android Studio
 export ANDROID_HOME=${HOME}/Library/Android/sdk
 export PATH=${PATH}:${ANDROID_HOME}/tools
 export PATH=${PATH}:${ANDROID_HOME}/platform-tools
+
+# rbenv
+if which rbenv > /dev/null; then
+  eval "$(rbenv init -)";
+fi
 
 # Custom shells
 export PATH=${PATH}:${HOME}/dev/bin
