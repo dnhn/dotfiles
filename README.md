@@ -3,8 +3,8 @@
 Included:
 - Atom
 - Bash
-- Brew
 - Git
+- Homebrew
 - Vim
 
 References:
