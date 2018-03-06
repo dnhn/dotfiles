@@ -9,28 +9,31 @@ fi
 echo "=== Update Brew"
 brew update
 
+echo "\n=== Add more repositories\n"
+brew tap caskroom/cask
+
 printf "\n=== Upgrade packages\n"
 brew upgrade
 
 # Install Brew packages
-# Laravel Valet (dnsmasq, nginx, php71)
-# hub (GitHub)
-# MySQL (additional to Valet)
-# Node.js LTS (main usage)
-# unrar (extract .rar files)
 packages=(
-  dnsmasq
+  dnsmasq # Laravel Valet
   git
   heroku
-  hub
+  hub # GitHub
   mongodb
   mysql
-  nginx
-  node@8
-  php71
+  nginx # Laravel Valet
+  node@8 # Node.js LTS
+  php71 # Laravel Valet
+  postgresql
+  pyenv
+  rbenv
+  rbenv-gemset
+  ruby-build
   unrar
   watchman
-  wget
+  wget # Curl alternatives
   yarn
 )
 printf "\n=== Install new packages\n"
