@@ -37,11 +37,7 @@ alias dockspace="defaults write com.apple.dock persistent-apps -array-add '{"til
 alias dotfiles="cd ~/dev/projects/dotfiles"
 alias poweroff="sudo shutdown -h "
 
-cd () {
-  ARG="$1"
-  export WD_HISTORY=`pwd`
-  builtin cd $ARG
-}
+source ~/dev/bin/alias-projects.sh
 
 cdup () {
   COUNT="$1"
@@ -51,13 +47,7 @@ cdup () {
   do
     CMD=$CMD$LEVEL
   done
-  export WD_HISTORY=`pwd`
   builtin cd $CMD
-}
-
-cdback () {
-  export WD_HISTORY=`pwd`
-  builtin cd $WD_HISTORY
 }
 
 wcc () {
