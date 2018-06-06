@@ -1,4 +1,4 @@
-# &middot;
+# •
 
 ## Included
 - Git
