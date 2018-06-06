@@ -13,8 +13,10 @@ packages=(
   grunt
   gulp
   ionic
+  ios-deploy
   isogram
   lighthouse
+  npm
   npm-check
   parcel-bundler
   postcss-cli

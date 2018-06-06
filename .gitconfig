@@ -5,6 +5,8 @@
   ui = true
 [diff]
   tool = vimdiff
+[push]
+  default = current
 [user]
   name = Nhan Doan
   email =
@@ -12,6 +14,9 @@
 [alias]
   bd = bundle
   br = branch
+  bra = branch -a
+  brm = branch -m
+  brr = branch -r
   cl = clean
   cm = commit -m
   cma = commit --amend
@@ -19,6 +24,7 @@
   cms = commit -S -m
   count = rev-list --count --all
   co = checkout
+  cob = checkout -b
   coo = checkout --
   df = diff
   dft = difftool
