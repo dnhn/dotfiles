@@ -14,6 +14,9 @@ if which rbenv > /dev/null; then
   eval "$(rbenv init -)";
 fi
 
+# pyenv
+export PATH="$(pyenv root)/shims:/usr/local/bin:/usr/bin:/bin"
+
 # Custom shells
 export PATH=${PATH}:${HOME}/dev/bin
 
