@@ -12,6 +12,7 @@
   email =
   signingkey =
 [alias]
+  alias = config --global --get-regexp ^alias\\.
   bd = bundle
   br = branch
   bra = branch -a
