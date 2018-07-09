@@ -19,6 +19,7 @@ packages=(
   isogram
   lighthouse
   loopback-cli
+  now
   npm
   npm-check
   parcel-bundler
@@ -26,6 +27,7 @@ packages=(
   psi
   react-devtools
   react-native-cli
+  surge
   tslint
   typescript
   vue-cli
