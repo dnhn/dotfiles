@@ -22,6 +22,8 @@
   cm = commit -m
   cma = commit --amend
   cman = commit --amend --no-edit
+  cmas = commit -S --amend
+  cmans = commit -S --amend --no-edit
   cms = commit -S -m
   count = rev-list --count --all
   co = checkout
