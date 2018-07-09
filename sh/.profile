@@ -1,21 +1,21 @@
 export CLICOLOR=1
 export PATH="${PATH}:/usr/local/sbin"
-export PATH="${PATH}:/usr/local/opt/node@8/bin"
 export PATH="${PATH}:${HOME}/.composer/vendor/bin"
 export PATH="${PATH}:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 # Android Studio
 export ANDROID_HOME=${HOME}/Library/Android/sdk
 export PATH=${PATH}:${ANDROID_HOME}/tools
+export PATH=${PATH}:${ANDROID_HOME}/tools/bin
 export PATH=${PATH}:${ANDROID_HOME}/platform-tools
+
+# pyenv - must come before $PATH
+export PATH=$(pyenv root)/shims:/usr/local/bin:/usr/bin:/bin:${PATH}
 
 # rbenv
 if which rbenv > /dev/null; then
   eval "$(rbenv init -)";
 fi
-
-# pyenv
-export PATH="$(pyenv root)/shims:/usr/local/bin:/usr/bin:/bin"
 
 # Custom shells
 export PATH=${PATH}:${HOME}/dev/bin
@@ -29,7 +29,6 @@ alias ...="cd ../../.."
 alias ....="cd ../../../.."
 alias .....="cd ../../../../.."
 alias ll="ls -FlAG"
-alias webstorm="open -a ~/Applications/JetBrains\ Toolbox/WebStorm.app"
 alias firefox="open -a /Applications/Firefox.app"
 alias clearclip="pbcopy < /dev/null"
 alias killl="kill -9 "
