@@ -14,22 +14,25 @@
 [alias]
   alias = config --global --get-regexp ^alias\\.
   bd = bundle
-  br = branch
-  bra = branch -a
+  br = branch -v
+  bra = branch -av
   brm = branch -m
-  brr = branch -r
+  brr = branch -rv
   cl = clean
-  cm = commit -m
+  cm = commit
   cma = commit --amend
   cman = commit --amend --no-edit
   cmas = commit -S --amend
   cmans = commit -S --amend --no-edit
-  cms = commit -S -m
+  cmm = commit -m
+  cmms = commit -S -m
+  cms = commit -S
   count = rev-list --count --all
   co = checkout
   cob = checkout -b
   coo = checkout --
   df = diff
+  dfc = diff --cached
   dft = difftool
   dfto = difftool --tool=opendiff
   ft = fetch
@@ -41,10 +44,15 @@
   pos = push origin
   rbs = rebase
   rem = reset HEAD --
+  remote = remote -v
+  revert = reset HEAD^
   sh = show
   slog = shortlog -sn --all
   sloge = shortlog -sne --all
   ss = stash
+  ssa = stash apply
+  ssd = stash drop
+  ssl = stash list
   ssu = stash -u
   ssp = stash pop
   sss = stash save
