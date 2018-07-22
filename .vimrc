@@ -49,8 +49,10 @@ set softtabstop=2
 set smarttab
 
 " Use current line indent for new line
+" Detect indentation of the current code
 " Turn on indentation for file types
 set autoindent
+set smartindent
 filetype indent on
 
 " Enable syntax highlighting
