@@ -16,6 +16,7 @@
   bd = bundle
   br = branch -v
   bra = branch -av
+  brd = branch -D
   brm = branch -m
   brr = branch -rv
   cl = clean
@@ -45,7 +46,7 @@
   rbs = rebase
   rem = reset HEAD --
   remote = remote -v
-  revert = reset HEAD^
+  rev = reset HEAD^
   sh = show
   slog = shortlog -sn --all
   sloge = shortlog -sne --all
