@@ -19,6 +19,7 @@ brew upgrade
 packages=(
   dnsmasq # Laravel Valet
   git
+  git-lfs
   heroku
   hub # GitHub
   mongodb
