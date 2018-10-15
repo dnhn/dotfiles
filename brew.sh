@@ -29,6 +29,8 @@ packages=(
   php71 # Laravel Valet
   postgresql
   pyenv
+  pyenv-virtualenv
+  pyenv-virtualenvwrapper
   rbenv
   rbenv-gemset
   ruby-build

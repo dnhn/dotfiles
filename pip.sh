@@ -3,6 +3,8 @@
 packages=(
   Django
   Flask
+  virtualenv
+  virtualenvwrapper
 )
 
-pip install ${packages[@]}
+python -m pip install ${packages[@]}
