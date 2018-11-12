@@ -5,6 +5,7 @@ packages=(
   @vue/cli
   babel-cli
   bower
+  bs-platform
   cordova
   create-react-app
   create-react-native-app

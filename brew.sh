@@ -25,7 +25,6 @@ packages=(
   mongodb
   mysql
   nginx # Laravel Valet
-  node@8 # Node.js LTS
   php71 # Laravel Valet
   postgresql
   pyenv
