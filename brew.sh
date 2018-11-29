@@ -12,9 +12,6 @@ brew update
 printf "\n=== Add more repositories\n"
 brew tap caskroom/cask
 
-printf "\n=== Upgrade packages\n"
-brew upgrade
-
 # Install Brew packages
 packages=(
   dnsmasq # Laravel Valet
@@ -25,7 +22,8 @@ packages=(
   mongodb
   mysql
   nginx # Laravel Valet
-  php71 # Laravel Valet
+  php # Laravel Valet
+  phpmyadmin # Laravel Valet
   postgresql
   pyenv
   pyenv-virtualenv
@@ -43,3 +41,6 @@ brew install ${packages[@]}
 
 printf "\n=== Outdated packages\n"
 brew outdated
+
+printf "\n=== Upgrade packages\n"
+brew upgrade
