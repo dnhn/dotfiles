@@ -38,7 +38,7 @@
   dft = difftool
   dfto = difftool --tool=opendiff
   ft = fetch
-  lg = log -n 20 --graph --oneline --decorate=full
+  lg = log -n 20 --graph --oneline --decorate=full --branches=* --remotes=*
   pl = pull
   ps = push
   pol = pull origin
