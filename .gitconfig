@@ -13,6 +13,7 @@
   signingkey =
 [alias]
   alias = config --global --get-regexp ^alias\\.
+  aa = add .
   ap = add -p
   bd = bundle
   br = branch -v
