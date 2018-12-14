@@ -19,6 +19,7 @@
   br = branch -v
   bra = branch -av
   brd = branch -D
+  brdr = branch -dr
   brm = branch -m
   brr = branch -rv
   cl = clean
