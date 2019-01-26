@@ -6,7 +6,6 @@ packages=(
   babel-cli
   bower
   bs-platform
-  cordova
   create-react-app
   create-react-native-app
   eslint
@@ -16,9 +15,6 @@ packages=(
   github-email
   grunt
   gulp
-  ignite-cli
-  ionic
-  ios-deploy
   isogram
   lighthouse
   loopback-cli
