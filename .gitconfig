@@ -56,8 +56,10 @@
   ss = stash
   ssa = stash apply
   ssd = stash drop
+  ssh = stash show -p
   ssl = stash list
   ssu = stash -u
   ssp = stash pop
+  sspu = stash push -u
   sss = stash save
   st = status
