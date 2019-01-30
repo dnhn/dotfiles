@@ -31,6 +31,7 @@ packages=(
   rbenv
   rbenv-gemset
   ruby-build
+  tmux
   unrar
   watchman
   wget # Curl alternatives
