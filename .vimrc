@@ -37,6 +37,9 @@ set ruler
 set textwidth=80
 set colorcolumn=+1
 
+" Enable backspace
+set bs=indent,eol,start
+
 " Convert tabs to spaces
 " Set shift amount
 " Set amount of spaces of a tab
