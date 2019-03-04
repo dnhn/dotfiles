@@ -18,6 +18,7 @@
     "files.trimTrailingWhitespace": true,
     "gitlens.settings.mode": "advanced",
     "html.format.endWithNewline": true,
+    "javascript.suggest.enabled": false,
     "search.showLineNumbers": true,
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
