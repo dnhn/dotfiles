@@ -11,7 +11,7 @@
     "editor.smoothScrolling": true,
     "editor.tabSize": 2,
     "emmet.triggerExpansionOnTab": true,
-    "files.autoSave": "onWindowChange",
+    "files.autoSave": "onFocusChange",
     "files.eol": "\n",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
