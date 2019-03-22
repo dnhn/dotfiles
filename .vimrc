@@ -13,6 +13,12 @@ set t_Co=256
 set background=light
 colorscheme dracula
 color dracula
+let g:dracula_bold = 1
+let g:dracula_italic = 1
+let g:dracula_underline = 1
+let g:dracula_undercurl = 1
+let g:dracula_inverse = 1
+let g:dracula_colorterm = 1
 
 " Set UTF-8 encoding without BOM
 set encoding=utf8 nobomb
@@ -79,5 +85,4 @@ set diffopt+=vertical
 " vim-airline
 let g:airline_theme='badwolf'
 set laststatus=2
-" disabled because of incompatibility in macOS Terminal
-"let g:airline_powerline_fonts = 1
+let g:airline_powerline_fonts = 1
