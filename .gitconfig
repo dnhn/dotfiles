@@ -62,4 +62,5 @@
   ssp = stash pop
   sspu = stash push -u
   sss = stash save
-  st = status
+  st = status -bs
+  stf = status -v --show-stash
