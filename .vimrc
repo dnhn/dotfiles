@@ -8,6 +8,9 @@ set nocompatible
 " 256-colour display
 set t_Co=256
 
+" Set font
+set guifont=FiraCode-Retina:h11
+
 " Set background and colour scheme
 " Dracula theme: https://github.com/dracula/vim
 set background=light
