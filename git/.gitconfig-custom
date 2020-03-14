@@ -1,0 +1,15 @@
+[core]
+  editor = vim
+  eol = lf
+[color]
+  ui = true
+[diff]
+  tool = vimdiff
+[push]
+  default = current
+[user]
+  name = Nhan Doan
+  email =
+  signingkey =
+[include]
+  path = .git-alias

@@ -1,18 +1,5 @@
-[core]
-  editor = vim
-  eol = lf
-[color]
-  ui = true
-[diff]
-  tool = vimdiff
-[push]
-  default = current
-[user]
-  name = Nhan Doan
-  email =
-  signingkey =
 [alias]
-  alias = config --global --get-regexp ^alias\\.
+  alias = config --file ~/.git-alias --get-regexp ^alias\\.
   aa = add .
   ap = add -p
   bd = bundle
