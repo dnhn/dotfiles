@@ -1,40 +1,21 @@
 #! /bin/sh
 # Install NPM packages
 packages=(
-  @angular/cli
-  @vue/cli
-  babel-cli
-  bower
-  bs-platform
   create-react-app
-  create-react-native-app
   eslint
-  express-generator
-  generator-server-configs
-  generator-webapp
   github-email
-  grunt
-  gulp
   isogram
   lighthouse
-  loopback-cli
   netlify-cli
   nodemon
-  now
   npm
   npm-check
-  parcel-bundler
-  postcss-cli
   psi
   react-devtools
-  react-native-cli
-  rollup
-  surge
   tslint
   typescript
   webpack
   webpack-bundle-analyzer
   webpack-dev-server
-  yo
 )
 npm install -g ${packages[@]}
