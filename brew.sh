@@ -9,7 +9,7 @@ fi
 echo "=== Update Brew"
 brew update
 
-printf "\n=== Add more repositories\n"
+printf "\n=== Add cask\n"
 brew tap caskroom/cask
 
 # Install Brew packages
@@ -37,11 +37,13 @@ packages=(
   wget # Curl alternatives
   yarn
 )
-printf "\n=== Install new packages\n"
+printf "\n=== Install packages\n"
 brew install ${packages[@]}
 
-printf "\n=== Outdated packages\n"
-brew outdated
+# Install casks
+casks=()
+printf "\n=== Install casks\n"
+brew cask install ${casks[@]}
 
-printf "\n=== Upgrade packages\n"
-brew upgrade
+brew outdated
+printf "\n=== Outdated packages\n"
