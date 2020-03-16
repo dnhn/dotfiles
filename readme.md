@@ -9,15 +9,6 @@
 - Vim
 - Visual Studio Code
 
-## System requirements
-- OS X 10.10 Yosemite or higher
-- Bourne-compatible shell (sh, bash, zsh, etc.)
-- Ruby
-
-## Installation
-- Open Terminal
-- Run `source start.sh`
-
 ## References
 - Paul Irish’ [dotfiles](https://github.com/paulirish/dotfiles)
 - Mathias Bynens’ [dotfiles](https://github.com/mathiasbynens/dotfiles)
