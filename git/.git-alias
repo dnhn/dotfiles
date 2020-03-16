@@ -10,6 +10,7 @@
   brm = branch -m
   brr = branch -rv
   cl = clean
+  clfd = clean -fd .
   cm = commit
   cma = commit --amend
   cman = commit --amend --no-edit
