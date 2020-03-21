@@ -33,10 +33,14 @@ cob | `checkout -b` | Create new branch and check it out
 coo | `checkout --` | Discard all changes
 df | `diff` |
 dfc | `diff --cached` |
+dfstg | `diff --staged` |
 dft | `difftool` |
 dfto | `difftool --tool=opendiff` |
 ft | `fetch` |
+ftpr | `fetch --prune` | Fetch and delete deleted remote branches
 lg | `log -n 20 --graph --oneline --decorate=full --branches=* --remotes=*` | Display latest 20 commits in simple format
+lgsst | `lg --shortstat` | `lg` with brief stat
+lgst | `lg --stat` | `lg` with full diffstat
 pl | `pull` |
 ps | `push` |
 pol | `pull origin` |
