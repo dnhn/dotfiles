@@ -1,5 +1,5 @@
 [alias]
-  alias = config --file ~/.git-alias --get-regexp ^alias\\.
+  alias = !git config --file ~/.git-alias --get-regexp ^alias\\.
   aa = add .
   ap = add -p
   bd = bundle
