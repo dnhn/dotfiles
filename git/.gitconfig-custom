@@ -1,15 +1,17 @@
+[color]
+  ui = true
 [core]
   editor = vim
   eol = lf
-[color]
-  ui = true
 [diff]
   tool = vimdiff
+[include]
+  path = .git-alias
+[instaweb]
+  httpd = webrick
 [push]
   default = current
 [user]
   name = Nhan Doan
   email =
   signingkey =
-[include]
-  path = .git-alias

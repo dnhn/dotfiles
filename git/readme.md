@@ -7,7 +7,7 @@ git config --file ~/.git-alias --get-regexp ^alias\\.
 ```
 
 Alias | Full command | Description
---|--|--
+-|-|-
 alias | | List all aliases
 aa | `add .` | Stage all files
 ap | `add -p` |
@@ -65,3 +65,5 @@ sspu | `stash push -u` |
 sss | `stash save` |
 st | `status -bs` | Simple status
 stf | `status -v --show-stash` | Full status with staging diff
+web | `!git instaweb` | Start `gitweb` server to browse a repository (`httpd` specified in [.gitconfig](.gitconfig-custom))
+webs | `web --stop` | Stop `gitweb` server

@@ -56,3 +56,5 @@
   sss = stash save
   st = status -bs
   stf = status -v --show-stash
+  web = !git instaweb
+  webs = web --stop
