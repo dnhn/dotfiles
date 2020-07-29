@@ -7,6 +7,8 @@
   tool = vimdiff
 [include]
   path = .git-alias
+[init]
+  defaultBranch = root
 [instaweb]
   httpd = webrick
 [push]
