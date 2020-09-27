@@ -34,6 +34,10 @@ set autoread
 set ignorecase
 set smartcase
 
+" Search highlight and incremental
+set hlsearch
+set incsearch
+
 " Display line numbers
 " Line numbers column width
 set number
@@ -48,6 +52,9 @@ set colorcolumn=+1
 
 " Enable backspace
 set bs=indent,eol,start
+
+" Add context line around cursor
+set scrolloff=10
 
 " Convert tabs to spaces
 " Set shift amount
