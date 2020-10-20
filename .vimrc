@@ -54,6 +54,7 @@ set colorcolumn=+1
 set bs=indent,eol,start
 
 " Add context line around cursor
+set cursorline
 set scrolloff=10
 
 " Convert tabs to spaces
@@ -92,7 +93,10 @@ set splitbelow
 " File diff always displays vertically
 set diffopt+=vertical
 
+" Status bar
+set laststatus=2
+set showcmd
+
 " vim-airline
 let g:airline_theme='badwolf'
-set laststatus=2
 let g:airline_powerline_fonts = 1
