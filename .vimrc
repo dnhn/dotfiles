@@ -93,6 +93,10 @@ set splitbelow
 " File diff always displays vertically
 set diffopt+=vertical
 
+" ESC delays
+set timeoutlen=1000
+set ttimeoutlen=0
+
 " Status bar
 set laststatus=2
 set showcmd
