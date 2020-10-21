@@ -54,8 +54,10 @@ set colorcolumn=+1
 set bs=indent,eol,start
 
 " Add context line around cursor
+" Free range cursor
 set cursorline
 set scrolloff=10
+set virtualedit=all
 
 " Convert tabs to spaces
 " Set shift amount
@@ -100,7 +102,3 @@ set ttimeoutlen=0
 " Status bar
 set laststatus=2
 set showcmd
-
-" vim-airline
-let g:airline_theme='badwolf'
-let g:airline_powerline_fonts = 1
