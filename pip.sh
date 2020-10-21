@@ -1,8 +1,6 @@
 #! /bin/sh
 # Install Python packages
 packages=(
-  Django
-  Flask
   virtualenv
   virtualenvwrapper
 )

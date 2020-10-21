@@ -2,18 +2,17 @@
 # Install NPM packages
 packages=(
   create-react-app
-  eslint
+  gatsby-cli
   github-email
+  grunt
+  gulp
   isogram
   lighthouse
   netlify-cli
-  nodemon
   npm
   npm-check
   psi
   react-devtools
-  tslint
-  typescript
   webpack
   webpack-bundle-analyzer
   webpack-dev-server

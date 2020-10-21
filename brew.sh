@@ -6,25 +6,15 @@ if ! [ -x "$(command -v brew)" ]; then
   echo
 fi
 
-echo "=== Update Brew"
-brew update
-
 printf "\n=== Add cask\n"
 brew tap caskroom/cask
 
 # Install Brew packages
 packages=(
-  dnsmasq # Laravel Valet
+  gh
   git
   git-lfs
-  heroku
-  hub # GitHub
-  mongodb
-  mysql
-  nginx # Laravel Valet
-  php # Laravel Valet
-  phpmyadmin # Laravel Valet
-  postgresql
+  n
   pyenv
   pyenv-virtualenv
   pyenv-virtualenvwrapper
@@ -33,17 +23,37 @@ packages=(
   ruby-build
   tmux
   unrar
+  vim
   watchman
-  wget # Curl alternatives
+  wget
   yarn
 )
 printf "\n=== Install packages\n"
 brew install ${packages[@]}
 
 # Install casks
-casks=()
+casks=(
+  authy
+  battle-net
+  evernote
+  firefox
+  google-chrome
+  jetbrains-toolbox
+  microsoft-edge
+  nanas-eyes
+  skype
+  slack
+  sourcetree
+  spotify
+  steam
+  stellarium
+  teamviewer
+  tor-browser
+  visual-studio-code
+  zoomus
+)
 printf "\n=== Install casks\n"
 brew cask install ${casks[@]}
-
-brew outdated
+ 
 printf "\n=== Outdated packages\n"
+brew outdated 
