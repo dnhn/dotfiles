@@ -1,3 +1,5 @@
+source $VIMRUNTIME/defaults.vim
+
 " Set compatibility
 set nocompatible
 
@@ -82,8 +84,9 @@ set showmatch
 
 " Highlight special characters
 " (tabs, traling spaces, end-of-line, non-breaking spaces)
-set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
+set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_,space:·,extends:…,precedes:…
 set list
+highlight SpecialKey ctermfg=8 guifg=DimGrey
 
 " Enable mouse
 " Ensure mouse works in tmux
@@ -101,7 +104,11 @@ set diffopt+=vertical
 set timeoutlen=1000
 set ttimeoutlen=0
 
+" Tab bar
+" Suggestions
 " Status bar
+set showtabline=2
+set wildmenu
 set laststatus=2
 set showcmd
 
