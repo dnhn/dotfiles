@@ -1,7 +1,3 @@
-"
-" vim configuration
-"
-
 " Set compatibility
 set nocompatible
 
@@ -53,10 +49,11 @@ set colorcolumn=+1
 " Enable backspace
 set bs=indent,eol,start
 
-" Add context line around cursor
+" Add context line/column around cursor
 " Free range cursor
 set cursorline
 set scrolloff=10
+set sidescrolloff=5
 set virtualedit=all
 
 " Convert tabs to spaces
@@ -88,6 +85,11 @@ set showmatch
 set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
 set list
 
+" Enable mouse
+" Ensure mouse works in tmux
+set mouse=a
+set ttymouse=xterm2
+
 " Set window splitting order
 set splitright
 set splitbelow
@@ -102,3 +104,6 @@ set ttimeoutlen=0
 " Status bar
 set laststatus=2
 set showcmd
+
+" Swap files
+set directory^=$HOME/.vim/tmp//
