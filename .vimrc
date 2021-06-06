@@ -6,6 +6,10 @@ set nocompatible
 " 256-colour display
 set t_Co=256
 
+" Performance
+set ttyfast
+set lazyredraw
+
 " Set font
 set guifont=FiraCode-Retina:h11
 
@@ -78,6 +82,7 @@ filetype indent on
 
 " Enable syntax highlighting
 syntax enable
+filetype plugin on
 
 " Show matching parenthesis, brackets
 set showmatch
@@ -114,3 +119,7 @@ set showcmd
 
 " Swap files
 set directory^=$HOME/.vim/tmp//
+
+" Plugins
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+set runtimepath^=~/.vim/bundle/emmet-vim
