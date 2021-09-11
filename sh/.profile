@@ -30,11 +30,12 @@ alias .....="cd ../../../../.."
 alias ll="ls -FlAGh"
 alias clearclip="pbcopy < /dev/null"
 alias killl="kill -9 "
-alias webserver="python -m SimpleHTTPServer 8000"
+alias webserver="python -m http.server"
 alias ngrok="~/dev/ngrok"
 alias dockspace="defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'; killall Dock"
 alias todo="vim todo.md"
 alias poweroff="sudo shutdown -h "
+alias flushdns="dscacheutil -flushcache && killall -HUP mDNSResponder"
 
 source ~/dev/bin/alias-projects.sh
 
