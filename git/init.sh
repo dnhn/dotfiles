@@ -1,9 +1,4 @@
 cp .git-alias ~/.git-alias
-git config --global color.ui true
-git config --global core.editor vim
-git config --global core.eol lf
-git config --global diff.tool vimdiff
+cp .gitconfig-custom ~/.gitconfig-custom
 git config --global include.path ~/.git-alias
-git config --global init.defaultBranch root
-git config --global instaweb.httpd webrick
-git config --global push.default current
+git config --global include.path ~/.gitconfig-custom
