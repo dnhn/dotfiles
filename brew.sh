@@ -25,7 +25,6 @@ packages=(
   tmux
   unrar
   vim
-  watchman
   wget
   yarn
 )
@@ -36,19 +35,22 @@ brew install ${packages[@]}
 casks=(
   authy
   battle-net
+  discord
   evernote
   firefox
   google-chrome
   jetbrains-toolbox
   microsoft-edge
   nanas-eyes
-  skype
+  obs
+  protonvpn
   slack
   sourcetree
   spotify
   steam
   stellarium
   teamviewer
+  telegram
   tor-browser
   visual-studio-code
   zoomus

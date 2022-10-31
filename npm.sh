@@ -2,7 +2,6 @@
 # Install NPM packages
 packages=(
   create-react-app
-  gatsby-cli
   github-email
   grunt
   gulp
