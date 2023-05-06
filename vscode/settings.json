@@ -1,15 +1,16 @@
 {
     "editor.cursorBlinking": "expand",
-    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorSmoothCaretAnimation": "on",
     "editor.cursorWidth": 2,
     "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontLigatures": true,
-    "editor.fontSize": 14,
+    "editor.fontSize": 13,
     "editor.renderControlCharacters": true,
     "editor.renderLineHighlight": "all",
     "editor.renderWhitespace": "all",
     "editor.tabSize": 2,
     "emmet.triggerExpansionOnTab": true,
+    "extensions.autoUpdate": "onlyEnabledExtensions",
     "files.autoSave": "onFocusChange",
     "files.eol": "\n",
     "files.insertFinalNewline": true,
@@ -18,9 +19,16 @@
     "search.showLineNumbers": true,
     "telemetry.telemetryLevel": "off",
     "update.mode": "start",
-    "workbench.colorTheme": "Default Dark+",
+    "window.zoomLevel": -1,
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.editor.tabCloseButton": "left",
     "workbench.sideBar.location": "right",
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+
+    "aws.codeWhisperer.shareCodeWhispererContentWithAWS": false,
+    "aws.telemetry": false,
+    "gitlens.codeLens.scopes": [
+        "document"
+    ],
+    "tailwindCSS.emmetCompletions": true,
 }
