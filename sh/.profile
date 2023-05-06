@@ -9,8 +9,7 @@ export PATH=$(pyenv root)/shims:/usr/local/bin:/usr/bin:/bin:${PATH}
 # virtualenv
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
-pyenv virtualenvwrapper
- 
+
 # rbenv
 if which rbenv > /dev/null; then
   eval "$(rbenv init -)";
@@ -65,4 +64,21 @@ wcc () {
   echo "Word: ${WORD}"
   echo "Line: ${LINE}"
   echo
+}
+
+git-user () {
+  case $1 in
+    "public")
+      git config user.email ""
+      git config user.signingkey ""
+      ;;
+    "private")
+      git config user.email ""
+      git config user.signingkey ""
+      ;;
+  esac
+}
+
+prj () {
+  cd ~/dev/projects/$1
 }

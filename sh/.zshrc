@@ -17,5 +17,5 @@ plugins=(
 
 DEFAULT_USER=$USER
 prompt_context() {
-  prompt_segment black default "🌈"
+  prompt_segment black default "⚡️"
 }
