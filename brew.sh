@@ -12,38 +12,44 @@ brew tap homebrew/cask-fonts
 
 # Install Brew packages
 packages=(
+  awscli
+  composer
   gh
   git
   git-lfs
+  gnupg
+  hugo
   n
   pyenv
   pyenv-virtualenv
-  pyenv-virtualenvwrapper
   rbenv
-  rbenv-gemset
-  ruby-build
   tmux
   unrar
   vim
   wget
   yarn
-)
-printf "\n=== Install packages\n"
-brew install ${packages[@]}
+  youtube-dl
 
-# Install casks
-casks=(
+  # casks
+  adobe-creative-cloud
+  adobe-creative-cloud-cleaner-tool
+  alfred
+  appcleaner
   authy
   battle-net
   discord
-  evernote
+  docker
+  figma
   firefox
+  folding-at-home
   google-chrome
   jetbrains-toolbox
   microsoft-edge
+  mysqlworkbench
   nanas-eyes
   obs
   protonvpn
+  quik
   slack
   sourcetree
   spotify
@@ -53,10 +59,12 @@ casks=(
   telegram
   tor-browser
   visual-studio-code
-  zoomus
+
+  # fonts
+  font-fira-code
 )
-printf "\n=== Install casks\n"
-brew cask install ${casks[@]}
- 
+printf "\n=== Install packages and casks\n"
+brew install ${packages[@]}
+
 printf "\n=== Outdated packages\n"
-brew outdated 
+brew outdated

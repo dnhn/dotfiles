@@ -1,10 +1,9 @@
 #! /bin/sh
 # Install NPM packages
 packages=(
-  create-react-app
+  @wordpress/env
+  gatsby-cli
   github-email
-  grunt
-  gulp
   isogram
   lighthouse
   netlify-cli
@@ -12,8 +11,6 @@ packages=(
   npm-check
   psi
   react-devtools
-  webpack
-  webpack-bundle-analyzer
-  webpack-dev-server
+  serve
 )
 npm install -g ${packages[@]}
