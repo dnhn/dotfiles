@@ -94,9 +94,7 @@ set list
 highlight SpecialKey ctermfg=8 guifg=DimGrey
 
 " Enable mouse
-" Ensure mouse works in tmux
 set mouse=a
-set ttymouse=xterm2
 
 " Set window splitting order
 set splitright
@@ -123,3 +121,6 @@ set directory^=$HOME/.vim/tmp//
 " Plugins
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 set runtimepath^=~/.vim/bundle/emmet-vim
+set runtimepath^=~/.vim/bundle/nerdtree
+set runtimepath^=~/.vim/bundle/vim-airline
+set runtimepath^=~/.vim/bundle/vim-wakatime
