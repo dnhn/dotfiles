@@ -6,6 +6,5 @@ rbenv global 3.2.1
 
 gems=(
   github-linguist
-  rails
 )
 gem install ${gems[@]}
