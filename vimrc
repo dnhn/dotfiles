@@ -124,3 +124,5 @@ set runtimepath^=~/.vim/bundle/emmet-vim
 set runtimepath^=~/.vim/bundle/nerdtree
 set runtimepath^=~/.vim/bundle/vim-airline
 set runtimepath^=~/.vim/bundle/vim-wakatime
+
+autocmd VimEnter * NERDTree
