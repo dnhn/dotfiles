@@ -19,7 +19,7 @@ brm | `branch -m` | Rename branch
 brd | `branch -D` | Delete local branch
 brdr | `branch -dr` | Delete remote branch `origin/branch`
 cl | `clean` |
-clfd | `clean -fd .` | Clean-up all untracked files
+cla | `clean -fd .` | Clean-up all untracked files
 cm | `commit` |
 cmm | `commit -m` |
 cma | `commit --amend` | Edit previous commit message
@@ -34,12 +34,12 @@ cob | `checkout -b` | Create new branch and check it out
 coo | `checkout --` | Discard all changes
 df | `diff` | Show unstaged diff
 dfc | `diff --cached` | Show staged diff
-dfstg | `diff --staged` | Same as `dfc`
+dfs | `diff --staged` | Same as `dfc`
 dft | `difftool` |
 dfto | `difftool --tool=opendiff` |
-ft | `fetch` |
-ftpr | `fetch --prune` | Fetch and delete deleted remote branches
-lg | `log -n 20 --graph --oneline --decorate=full --branches=* --remotes=*` | Simply display recent commits
+ft | `fetch --all` |
+ftp | `fetch --all --prune` | Fetch and delete deleted remote branches
+lg | `log -n 50 --graph --oneline --decorate=full --branches=* --remotes=*` | Simply display recent commits
 lgsst | `lg --shortstat` | `lg` with brief stat
 lgst | `lg --stat` | `lg` with full diffstat
 pl | `pull` |

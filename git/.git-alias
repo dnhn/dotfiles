@@ -10,7 +10,7 @@
   brd = branch -D
   brdr = branch -dr
   cl = clean
-  clfd = clean -fd .
+  cla = clean -fd .
   cm = commit
   cmm = commit -m
   cma = commit --amend
@@ -25,12 +25,12 @@
   coo = checkout --
   df = diff
   dfc = diff --cached
-  dfstg = diff --staged
+  dfs = diff --staged
   dft = difftool
   dfto = difftool --tool=opendiff
-  ft = fetch
-  ftpr = fetch --prune
-  lg = log -n 20 --graph --oneline --decorate=full --branches=* --remotes=*
+  ft = fetch --all
+  ftp = fetch --all --prune
+  lg = log -n 50 --graph --oneline --decorate=full --branches=* --remotes=*
   lgsst = lg --shortstat
   lgst = lg --stat
   pl = pull
