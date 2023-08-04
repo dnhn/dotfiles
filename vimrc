@@ -126,3 +126,4 @@ set runtimepath^=~/.vim/bundle/vim-airline
 set runtimepath^=~/.vim/bundle/vim-wakatime
 
 autocmd VimEnter * NERDTree
+let NERDTreeShowHidden=1
