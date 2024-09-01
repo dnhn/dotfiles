@@ -1,5 +1,7 @@
 [color]
   ui = true
+[commit]
+  gpgsign = true
 [core]
   editor = vim
   eol = lf
