@@ -1,11 +1,15 @@
 ZSH_THEME="agnoster"
 
 plugins=(
+  aliases
   brew
   bundler
   cask
   gem
+  gh
   git
+  gitignore
+  macos
   npm
   python
   ruby
