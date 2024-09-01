@@ -13,7 +13,6 @@ brew tap homebrew/cask-fonts
 # Install Brew packages
 packages=(
   awscli
-  composer
   gh
   git
   git-lfs
@@ -21,12 +20,10 @@ packages=(
   hugo
   n
   pyenv
-  pyenv-virtualenv
   rbenv
   tmux
   unrar
   vim
-  wget
   yarn
   youtube-dl
 
@@ -35,19 +32,15 @@ packages=(
   adobe-creative-cloud-cleaner-tool
   alfred
   appcleaner
-  authy
-  battle-net
   discord
   docker
+  duckduckgo
   figma
   firefox
-  folding-at-home
   google-chrome
   jetbrains-toolbox
   microsoft-edge
-  mysqlworkbench
-  nanas-eyes
-  obs
+  nasas-eyes
   protonvpn
   quik
   slack
@@ -56,7 +49,6 @@ packages=(
   steam
   stellarium
   teamviewer
-  telegram
   tor-browser
   visual-studio-code
 
