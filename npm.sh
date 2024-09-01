@@ -2,15 +2,16 @@
 # Install NPM packages
 packages=(
   @wordpress/env
-  gatsby-cli
+  @wp-now/wp-now
   github-email
   isogram
   lighthouse
   netlify-cli
   npm
   npm-check
+  pnpm
   psi
-  react-devtools
   serve
+  vercel
 )
 npm install -g ${packages[@]}
