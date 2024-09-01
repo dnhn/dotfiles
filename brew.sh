@@ -6,10 +6,6 @@ if ! [ -x "$(command -v brew)" ]; then
   echo
 fi
 
-printf "\n=== Add cask\n"
-brew tap caskroom/cask
-brew tap homebrew/cask-fonts
-
 # Install Brew packages
 packages=(
   awscli
