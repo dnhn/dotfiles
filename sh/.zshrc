@@ -1,4 +1,5 @@
-ZSH_THEME="agnoster"
+ZSH_THEME="kolo"
+HYPHEN_INSENSITIVE="true"
 
 plugins=(
   aliases
