@@ -1,5 +1,6 @@
 ZSH_THEME="kolo"
 HYPHEN_INSENSITIVE="true"
+zstyle ':omz:update' mode auto
 
 plugins=(
   aliases
