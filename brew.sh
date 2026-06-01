@@ -13,35 +13,43 @@ packages=(
   git
   git-lfs
   gnupg
-  hugo
+  lazygit
+  mole
   n
   pyenv
   rbenv
   tmux
   unrar
+  uv
   vim
+  webp
   yarn
   youtube-dl
 
   # casks
   adobe-creative-cloud
   adobe-creative-cloud-cleaner-tool
-  alfred
   appcleaner
   discord
   docker
+  docker-desktop
   duckduckgo
   figma
   firefox
   google-chrome
+  gpg-suite
   jetbrains-toolbox
+  karabiner-elements
   microsoft-edge
   nasas-eyes
+  obs
+  postman
   protonvpn
   quik
   slack
   sourcetree
   spotify
+  stats
   steam
   stellarium
   teamviewer
@@ -53,6 +61,3 @@ packages=(
 )
 printf "\n=== Install packages and casks\n"
 brew install ${packages[@]}
-
-printf "\n=== Outdated packages\n"
-brew outdated
